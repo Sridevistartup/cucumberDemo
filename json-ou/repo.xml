@@ -1,0 +1,127 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-12T12:17:36.627Z",
+        "line": 8,
+        "name": "include prime",
+        "description": "",
+        "id": "search-and-place-order;include-prime",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 59610000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on amazon website",
+            "match": {
+              "location": "stepdefinitions.Stepdefintionsearch.user_is_on_amazon_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16632000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user checks the prime checkbox",
+            "match": {
+              "location": "stepdefinitions.Stepdefintionsearch.user_checks_the_prime_checkbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "checkbox should be selected",
+            "match": {
+              "location": "stepdefinitions.Stepdefintionsearch.checkbox_should_be_selected()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@prime"
+          }
+        ]
+      }
+    ],
+    "name": "search and place order",
+    "description": "",
+    "id": "search-and-place-order",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/featutres/se.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-12T12:18:54.669Z",
+        "line": 8,
+        "name": "include prime",
+        "description": "",
+        "id": "search-and-place-order;include-prime",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 59443000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on amazon website",
+            "match": {
+              "location": "stepdefinitions.Stepdefintionsearch.user_is_on_amazon_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 74104000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user checks the prime checkbox",
+            "match": {
+              "location": "stepdefinitions.Stepdefintionsearch.user_checks_the_prime_checkbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "checkbox should be selected",
+            "match": {
+              "location": "stepdefinitions.Stepdefintionsearch.checkbox_should_be_selected()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@prime"
+          }
+        ]
+      }
+    ],
+    "name": "search and place order",
+    "description": "",
+    "id": "search-and-place-order",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/featutres/search.feature",
+    "tags": []
+  }
+]

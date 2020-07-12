@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="213.623">
+<testcase classname="search and place order" name="include prime" time="77.607">
+<system-out><![CDATA[Given user is on amazon website.............................................passed
+When user checks the prime checkbox.........................................passed
+Then checkbox should be selected............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="search and place order" name="include prime" time="133.558">
+<system-out><![CDATA[Given user is on amazon website.............................................passed
+When user checks the prime checkbox.........................................passed
+Then checkbox should be selected............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
